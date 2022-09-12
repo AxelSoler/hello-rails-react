@@ -12,6 +12,17 @@ module.exports = {
     sourceMapFilename: "[file].map",
     path: path.resolve(__dirname, "app/assets/builds"),
   },
+  module: {
+      loaders: [
+          {
+              test: /\.js$/,
+              loader: 'babel-loader',
+              query: {
+                  presets: ['es2015']
+              }
+          }
+      ]
+  },
   plugins: [
     new webpack.optimize.LimitChunkCountPlugin({
       maxChunks: 1
