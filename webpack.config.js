@@ -7,21 +7,19 @@ module.exports = {
   entry: {
     application: "./app/javascript/application.js"
   },
+  module: {
+    rules: [
+      {
+        test: /\.(js)$/,
+        exclude: /node_modules/,
+        use: ['babel-loader'],
+      },
+    ],
+  },
   output: {
     filename: "[name].js",
     sourceMapFilename: "[file].map",
     path: path.resolve(__dirname, "app/assets/builds"),
-  },
-  module: {
-      loaders: [
-          {
-              test: /\.js$/,
-              loader: 'babel-loader',
-              query: {
-                  presets: ['es2015']
-              }
-          }
-      ]
   },
   plugins: [
     new webpack.optimize.LimitChunkCountPlugin({
