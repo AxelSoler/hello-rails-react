@@ -58,7 +58,7 @@ rails db:reset
 - Type this command into the terminal:
 
 ```
-rails server
+rails s -p 3001
 ```
 
 - Open your web browser at [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
