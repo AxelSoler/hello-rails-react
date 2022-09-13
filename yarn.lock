@@ -1854,7 +1854,7 @@
   "resolved" "https://registry.npmjs.org/esbuild-windows-64/-/esbuild-windows-64-0.15.7.tgz"
   "version" "0.15.7"
 
-"esbuild@^0.15.6", "esbuild@^0.15.7":
+"esbuild@^0.15.6":
   "integrity" "sha512-7V8tzllIbAQV1M4QoE52ImKu8hT/NLGlGXkiDsbEU5PS6K8Mn09ZnYoS+dcmHxOS9CRsV4IRAMdT3I67IyUNXw=="
   "resolved" "https://registry.npmjs.org/esbuild/-/esbuild-0.15.7.tgz"
   "version" "0.15.7"
