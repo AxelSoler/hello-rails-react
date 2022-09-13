@@ -2,7 +2,7 @@
 
 # My New Rails-React App
 
-> Hello world using react and ror togheter
+> Hello world using react and ror together
 
 ## Built With
 
